@@ -97,7 +97,7 @@ RA Create
 ```json
 {
    "message": "Can not create due to Validation failed: Email has already been taken",
-   "status_code": '409'
+   "status_code": 409
 }
 ```
 
@@ -153,7 +153,7 @@ Customer List Of a Specific Retailer Assistance(RA)
 ```json
 {
    "success": true,
-   "message":'Retailer Assistance Not Found',
+   "message":"Retailer Assistance Not Found",
    "status_code": 404,
    "data": {},
 }
@@ -166,10 +166,11 @@ Customer List Of a Specific Retailer Assistance(RA)
 ```json
 {
    "success": false,
-   "message": 'Internal server error',
+   "message": "Internal server error",
    "status_code": 500,
    "data": {},
 }
+```
 
 Customer Registration By Retailer Assistance(RA)
 
@@ -206,7 +207,7 @@ Customer Registration By Retailer Assistance(RA)
 ```json
 {
    "success": false,
-   "message":'Internal Server error',
+   "message":"Internal Server error",
    "status_code": 500
 }
 ```
